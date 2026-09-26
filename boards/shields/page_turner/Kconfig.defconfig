@@ -1,0 +1,7 @@
+if SHIELD_PAGE_TURNER
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "Page Turner"
+
+endif

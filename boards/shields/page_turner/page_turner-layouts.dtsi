@@ -1,0 +1,13 @@
+#include <physical_layouts.dtsi>
+
+/ {
+    physical_layout_page_turner: physical_layout_page_turner {
+        compatible = "zmk,physical-layout";
+        display-name = "Page Turner";
+        keys  //                     w   h    x    y     rot    rx    ry
+            = <&key_physical_attrs 100 100  150(-125)       0   150(-125)>
+            , <&key_physical_attrs 100 100  100    0       0   100     0>
+            , <&key_physical_attrs 100 100  200    0       0   200     0>
+            ;
+    };
+};
